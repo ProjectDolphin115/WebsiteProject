@@ -1,19 +1,60 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    margin: 0px;
+    
 }
 
 .header, .landing, .footer {
-    background-color: #1f2937;
-    font-family: "Roboto";
+    background-color: #000000;
+    font-family: "Roboto" sans-serif;
     color: #f9faf8;
 }
 
-.quote {
-    background-color: #e5e7eb;
-    color: #1f2937;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: light;
+/*header*/
+.header {
+    display: flex;
+    justify-content: space-between;
 }
+
+a {
+    text-decoration: none;
+    color: #800000;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 24px;
+    margin-right: 150px;
+}
+    li {
+        margin-left: auto;
+    }
+
+
+/*quote*/
+.quote {
+    background-color: #12032c;
+    color: #456a6b;
+    font-size: 36px;
+    font-weight: light;
+    display:flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+    .busted-and-blue {
+        font-style: italic;
+    }
+
+    .quote-source {
+    text-align: right;
+    font-size: 26px;
+    font-style: none;
+    font-weight: bold;
+    color: #357ABD;
+    }
